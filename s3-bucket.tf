@@ -2,7 +2,7 @@ module "s3_bucket" {
 source = "terraform-aws-modules/s3-bucket/aws"
 bucket_prefix="Deepthi_Vijayakumar"
 version="2.8.0"
-bucket = "s3-bucket"
+bucket = "aws_s3_bucket"
 acl    = "private"
 
   versioning = {
